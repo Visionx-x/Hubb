@@ -13,20 +13,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21484575'))
-API_HASH = environ.get('API_HASH', 'db6286a041a873eb6c571df07ef4244e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8077227019:AAEMaZj9RVEjgtVL151RIPr4fOI36MvnMM0')
+API_ID = int(environ.get('API_ID', '17779088'))
+API_HASH = environ.get('API_HASH', '60fe2a3e6b73bd708a21414d4494e29c')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7651750964:AAEWwgo-a1u33J0ZBKqnZaVGEE_sW71Cesc')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6736679432').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002429935242'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002293225893'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002316875460').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Yash1:Yash1@yashdd.hetez.mongodb.net/?retryWrites=true&w=majority&appName=yashdd")
-DATABASE_NAME = environ.get('DATABASE_NAME', "yashdd")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MovieHub:MovieHub@cluster0.rlia8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -35,7 +35,7 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002316875460')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
